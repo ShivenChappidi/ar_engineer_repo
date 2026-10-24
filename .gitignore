@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment and editor settings
+.env
+.vscode/
+.idea/
+
+# Generated test captures and benchmark output
+test_original.jpg
+test_mask.jpg
+webcam_test.jpg
+fps_results.txt
+
+# Operating system files
+.DS_Store
+Thumbs.db

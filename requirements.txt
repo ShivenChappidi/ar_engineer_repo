@@ -1,0 +1,7 @@
+mediapipe
+moderngl
+moderngl-window
+numpy
+opencv-python
+PyGLM
+trimesh
