@@ -1,14 +1,14 @@
 # AR Hand Object
 
-A Python webcam prototype that tracks hand gestures with MediaPipe and renders a
-3D object anchored to a pinching hand. It uses person segmentation to produce an
-occlusion mask, so the hand can appear in front of the rendered object.
+Python webcam prototype, tracks hand gestures with and renders a
+3D object anchored to a hand. Pinch index and thumb to 'grab', pinch free
+hand next to object to scale up and down
 
 ## Requirements
 
-- Python with `pip`
-- A webcam (the scripts use camera device `0`)
-- An OpenGL 3.3-capable graphics environment
+- Python 
+- Webcam 
+- OpenGL 3.3-capable graphics environment
 
 The MediaPipe model assets and sample OBJ model are included in this repository.
 Keep them in the project root: the scripts load these files by their relative
